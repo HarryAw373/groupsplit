@@ -2149,6 +2149,7 @@
         }, 100);
 
         // Get recipient phone number if available
+        const group = getGroup();
         let phone = null;
         if (to === 'You') {
           const profile = load('user_profile', null);
